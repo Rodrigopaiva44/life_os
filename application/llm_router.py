@@ -78,9 +78,16 @@ Regras de formatação:
    Esses campos aceitam SOMENTE os identificadores exatos abaixo. NUNCA use
    texto livre, capitalização diferente ou valores não listados.
 
-   • projeto    → 'baker_hughes'  | 'xend'      | 'beeoncrypto' | 'dfb'
-   • prioridade → 'p0_critical'   | 'p1_high'   | 'p2_medium'   | 'p3_low'
-   • status     → 'backlog'       | 'in_progress' | 'review'    | 'done' | 'blocked'\
+   • projeto    → use EXATAMENTE um dos nomes abaixo (identificador Python):
+       'baker_hughes'    → empresa Baker Hughes (Oil & Gas, Web2)
+       'galton_xend'     → empresa Galton & Xend (DeFi / Exchange)
+       'bee_on_crypto'   → empresa Bee On Crypto (Crypto Content)
+       'joina_chainvite' → empresa Joina / Chainvite (Web3 Tooling)
+       'northfi'         → empresa Northfi (DeFi Protocol)
+       'dfb'             → empresa DFB
+
+   • prioridade → 'p0_critical' | 'p1_high' | 'p2_medium' | 'p3_low'
+   • status     → 'backlog' | 'in_progress' | 'review' | 'done' | 'blocked'\
 """
 
 

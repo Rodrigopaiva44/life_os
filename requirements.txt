@@ -23,3 +23,5 @@ python-telegram-bot>=21.0
 # ── Dashboard ─────────────────────────────────────────────────────────────────
 streamlit>=1.32
 plotly>=5.18
+yfinance>=0.2
+streamlit-agraph>=0.0.45

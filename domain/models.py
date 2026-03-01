@@ -49,10 +49,12 @@ def _utcnow() -> datetime:
 # ── Enumerações de Domínio ─────────────────────────────────────────────────────
 
 class EmpresaEnum(str, Enum):
-    baker_hughes = "Baker Hughes"
-    xend         = "Xend"
-    beeoncrypto  = "BeeOnCrypto"
-    dfb          = "DFB"
+    baker_hughes    = "Baker Hughes"
+    galton_xend     = "Galton & Xend"
+    bee_on_crypto   = "Bee On Crypto"
+    joina_chainvite = "Joina/Chainvite"
+    northfi         = "Northfi"
+    dfb             = "DFB"
 
 
 class PrioridadeEnum(str, Enum):
